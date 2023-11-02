@@ -35,22 +35,39 @@
 
 /*Style of the content box in the Topical Page*/
 .topicalContextbox{
-    
+    -moz-box-align: center;
+    box-sizing: 700px;
+    padding: 30px;
+    border: 20px;
+    margin: 20px;
+    text-align: left;   
+
 }
 
 
 
 /*Styles of the images on the Topical Page*/
 .topicalImage1 {
-    
+    size: 30px;
+    border-radius: 8px;  
+    transform: scale(1);
 }
 .topicalImage2 {
-    
+    size: 15px;
+    border-radius: 8px;  
+    transform: scale(1);
 }
 
 .topicalImage3 {
-   
-
+    size: 15px;
+    border-radius: 8px;  
+    transform: scale(1);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 /*Styles of the caption underneath the images in the Topical Page*/
 
@@ -59,6 +76,7 @@
     font-family: verdana;
     size: 150%;
     cursor: pointer;
+    text-align: center;
 
 }
 .imgAuthor:hover{
