@@ -1,21 +1,44 @@
 
 
 
-/*Styles for the Topical page*/
+/*THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS THE STYLE OF THE TOPICAL PAGE*/
 
 /*Styles of the text on the Topical Page*/
 
+.topicalMainHead{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 230%;
+    color: black;
+    text-align: center;
+}
+
 .topicalSubheadings{
+    font-family: verdana;
+    font-size: 150%;
+    color: darkmagenta;
 
 }
 
 .topicalPLinks{
+    color: rosybrown;
+    font-family: verdana;
+    font-size: 80%;
 
 }
 
 .topicalText{
+    font-family: verdana;
+    font-size: 100%;
+    color: black;
 
 }
+
+/*Style of the content box in the Topical Page*/
+.topicalContextbox{
+    
+}
+
+
 
 /*Styles of the images on the Topical Page*/
 .topicalImage1 {
@@ -26,5 +49,18 @@
 }
 
 .topicalImage3 {
+   
 
+}
+/*Styles of the caption underneath the images in the Topical Page*/
+
+.imgAuthor{
+    color: darkmagenta;
+    font-family: verdana;
+    size: 150%;
+    cursor: pointer;
+
+}
+.imgAuthor:hover{
+    color: black;
 }
