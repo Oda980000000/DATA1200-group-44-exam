@@ -1,7 +1,9 @@
 
 
 
-/*Styles for the topical page*/
+/*Styles for the Topical page*/
+
+/*Styles of the text on the Topical Page*/
 
 .topicalSubheadings{
 
@@ -12,5 +14,17 @@
 }
 
 .topicalText{
+
+}
+
+/*Styles of the images on the Topical Page*/
+.topicalImage1 {
     
+}
+.topicalImage2 {
+    
+}
+
+.topicalImage3 {
+
 }
