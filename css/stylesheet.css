@@ -3,6 +3,63 @@
 
 /* Styles for index.html page*/
 
+.menuBar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.menuBar a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 100%;
+  }
+  
+  .menuBar a:hover {
+    background-color: darkmagenta;
+    color:black;
+  }
+  
+  .active {
+    background-color: darkmagenta;
+    color: white;
+  }
+
+
+.introduction {
+    -moz-box-align: center;
+    box-sizing: 700px;
+    padding: 20px;
+    border: 10px;
+    margin: 10px;
+    text-align: center;   
+}
+
+.indexIntro {
+    font-family: verdana;
+    font-size: 200%;
+    color: black;
+
+}
+
+.welcome {
+    -moz-box-align: center;
+    box-sizing: 700px;
+    padding: 20px;
+    border: 10px;
+    margin: 10px;
+    text-align: left;    
+}
+
+.indexWelcome {
+    font-family: verdana;
+    font-size: 170%;
+    color: black;
+}
+
 .oslometskiltAuthor {
     color: darkmagenta;
     font-family: verdana;
@@ -15,6 +72,28 @@
     color: black;
 }
 
+.aboutOslomet {
+    -moz-box-align: center;
+    box-sizing: 700px;
+    padding: 20px;
+    border: 10px;
+    margin: 20px;
+    text-align: left;
+}
+
+.indexOslomet {
+    font-family: verdana;
+    font-size: 100%;
+    color: black; 
+}
+
+.bitOslomet {
+    font-family: verdana;
+    font-size: 115%;
+    font-weight: bold;
+    color: darkmagenta;
+    
+}
 
 
 
