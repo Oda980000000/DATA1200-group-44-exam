@@ -1,4 +1,21 @@
 
+/* THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS THE STYLE OF THE IDEX.HTML*/
+
+/* Styles for index.html page*/
+
+.oslometskiltAuthor {
+    color: darkmagenta;
+    font-family: verdana;
+    size: 150%;
+    cursor: pointer;
+    text-align: center;
+
+}
+.oslometAuthor:hover{
+    color: black;
+}
+
+
 
 
 /*THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS THE STYLE OF THE TOPICAL PAGE*/
@@ -82,3 +99,6 @@
 .imgAuthor:hover{
     color: black;
 }
+
+
+
