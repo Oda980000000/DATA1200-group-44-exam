@@ -25,7 +25,7 @@
   
 
   /* .active {
-    background-color: darkmagenta;      MED ELLER UTEN DENNE CSSEN?
+    background-color: darkmagenta;      MED ELLER UTEN DENNE?
     color: white;
   } */
 
@@ -61,16 +61,22 @@
     color: black;
 }
 
-.oslometskiltAuthor {
-    color: darkmagenta;
+.oslometboardAuthor {
+    color: black;
     font-family: verdana;
     size: 150%;
     cursor: pointer;
     text-align: center;
 
 }
-.oslometskiltAuthor:hover{
-    color: black;
+.oslometboardAuthor:hover{
+    color: darkmagenta;
+}
+
+.oslometBoardP35{
+    size: 30px;
+    border-radius: 8px;  
+    transform: scale(1); 
 }
 
 .aboutOslomet {
