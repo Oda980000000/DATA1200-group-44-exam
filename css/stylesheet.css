@@ -197,4 +197,19 @@
 }
 
 
+/* Styles for accessibility page */
+.accessibility {
+    margin: 30px;
+    color:black;
+    font-family:Tahoma, Verdana, sans-serif;
+    size: 120%
+}
 
+.wcag {
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+    float: right;
+    font-family: Tahoma, Verdana, sans-serif;
+    size: 150%
+}
