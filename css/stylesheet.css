@@ -69,6 +69,7 @@
     text-align: center;
 
 }
+
 .oslometboardAuthor:hover{
     color: darkmagenta;
 }
@@ -156,14 +157,13 @@
 
 }
 
-
-
 /*Styles of the images on the Topical Page*/
 .topicalImage1 {
     size: 30px;
     border-radius: 8px;  
     transform: scale(1);
 }
+
 .topicalImage2 {
     size: 15px;
     border-radius: 8px;  
@@ -175,22 +175,23 @@
     border-radius: 8px;  
     transform: scale(1);
 }
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
 }
-/*Styles of the caption underneath the images in the Topical Page*/
 
+/*Styles of the caption underneath the images in the Topical Page*/
 .imgAuthor{
     color: darkmagenta;
     font-family: verdana;
     size: 150%;
     cursor: pointer;
     text-align: center;
-
 }
+
 .imgAuthor:hover{
     color: black;
 }
