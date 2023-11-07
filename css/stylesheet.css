@@ -116,13 +116,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 230%;
     color: black;
-    text-align: center;
+    text-align: left;
 }
 
 .topicalSubheadings{
     font-family: verdana;
     font-size: 150%;
     color: darkmagenta;
+    text-align: left;
 
 }
 
