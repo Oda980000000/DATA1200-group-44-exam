@@ -19,8 +19,8 @@
   }
   
   .menuBar a:hover {
-    background-color: darkmagenta;
-    color:black;
+    background-color: darkmagenta;      /* rgba(255, 230, 0, 0.88); */ 
+    color: black;
   }
   
 
