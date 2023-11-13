@@ -163,92 +163,100 @@ body {
 
 .topical-subcontainer{
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 400px 700px;
     grid-template-rows: 400px 80px;
     column-gap: 150px;
     margin-top: 100px;
     margin-bottom: 200px;
 }
 
-.topical-subcontainer2{
+/*.topical-subcontainer2{
     display:block;
-    height: 100px;;
-}
+    height: 100px;
+    margin-top: 0;
+}*/
 .topical-subcontainer3{
     display: grid;
-    grid-template-columns: 700px 1fr;
+    grid-template-columns: 700px 400px;
     grid-template-rows: 400px 80px;
     column-gap: 150px;
     margin-bottom: 300px;
 }
 
+.topical-quote-container{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.quote{
+    font-family: American Typewriter, serif;
+    font-size: 150%;
+    color: darkmagenta;
+    text-align: center;
+
+}
+.citation-origin{
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+    color: black;
+    text-align: center;
+}
+
 .topical-subcontainer4{
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 400px 700px;
     grid-template-rows: 400px 80px;
     column-gap: 150px;
     margin-bottom: 20px;
+    
 }
 
-.topical-subcontainer5{
-    display:block;
-    height: 100px;;
-}
 
-/*.box1{
-   
-}
-.box2{
-   
-}
-.box3{
-   
-}
-.box4{
-  
+
+.box1{
+    margin-left: 20px;
 }
 .box5{
-  
+    margin-left: 20px;
 }
 .box6{
-    
-}*/
-
-
-
-/*.topical-box1{
-    display: grid;
-    grid-template-columns: 400px 1fr;
-    height: 400px;
-    column-gap: 150px;
-    row-gap: 40;
-
+    margin-top: 0;
 }
-.topical-box2{
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 400px;
 
 
-}*/
+
+
+
 
 /*Styles of the images on the Topical Page*/
 .topical-image1 {
-    width:500px;
+    width: 100%; 
     transform: scale(1);
-   
+    transition: transform .2s;
 }
 
+.topical-image1:hover{
+    transform: scale(1.13);
+}
+
+
 .topical-image2 {
-    width: 500px; 
-    transform: scale(1)
-    
+    width: 100%; 
+    transform: scale(1);
+    transition: transform .2s;
+}
+.topical-image2:hover{
+    transform: scale(1.13);
 }
 
 .topical-image3 {
-    width: 500px; 
+    width: 100%; 
     transform: scale(1);
+    transition: transform .2s;
     
+}
+.topical-image3:hover{
+    transform: scale(1.15);
 }
 
 .center {
@@ -259,12 +267,24 @@ body {
 }
 
 /*Styles of the caption underneath the images in the Topical Page*/
-.img-author{
+.img-caption{
     color: darkmagenta;
+    font-weight: bold;
     font-family: Verdana, sans-serif, sans-serif;
-    size: 150%;
+    font-size: 100%;
     text-align: left;
+    margin-top: 30px;
+    margin-bottom: 1%;
 }
+.img-author{
+    color: black;
+    font-weight: normal;
+    font-family: Verdana, sans-serif, sans-serif;
+    font-size: 80%;
+    text-align: left;
+    margin-top: 0;
+}
+
 
 
 
