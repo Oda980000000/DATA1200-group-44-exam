@@ -9,6 +9,7 @@ body {
 .menuBar {
     overflow: hidden;
     background-color: black;
+    background: linear-gradient(to bottom right, #ffcc00 0%, #990099 90%);
 }
 
 .menuBar a {
@@ -22,14 +23,12 @@ body {
   }
   
   .menuBar a:hover {
-    background-color: darkmagenta;
     color:black;
+    font-weight:bold;
   }
 
-  /* .active {
-    background-color: darkmagenta;      MED ELLER UTEN DENNE?
-    color: white;
-  } */
+
+
 
 /* THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS THE STYLE OF THE IDEX.HTML AND IMAGESITE1.HTML*/
 
