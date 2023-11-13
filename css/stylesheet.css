@@ -302,3 +302,26 @@ body {
     font-family: Verdana, sans-serif, sans-serif;
     size: 150%
 }
+
+
+
+/* Styles for FOOTER*/
+.footer {
+    overflow: hidden;
+    background-color: black;
+    background: linear-gradient(to bottom right, #ffcc00 0%, #990099 90%);
+    width:100%;
+    padding:70px; 
+}
+
+.footer a {
+    float: left;
+    color: whitesmoke;
+    text-align:left;
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+  }
+  
+  
+
+  
