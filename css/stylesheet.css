@@ -122,62 +122,79 @@ body {
 
 /*Styles of the text on the Topical Page*/
 
-.topicalMainHead{
+.topical-main-heading{
     font-family: Verdana, sans-serif;
     font-size: 230%;
     color: black;
     text-align: center;
 }
 
-.topicalSubheadings{
+.topical-subheadings{
     font-family: Verdana, sans-serif;
     font-size: 150%;
     color: darkmagenta;
-
+    margin-bottom: 0;
+    
 }
 
-.topicalPLinks{
+.topical-links{
     color: blue;
     font-family: Verdana, sans-serif;
     font-size: 80%;
 
 }
 
-.topicalText{
+.topical-text{
     font-family: Verdana, sans-serif;
     font-size: 100%;
     color: black;
+   
 
 }
 
 /*Style of the content box in the Topical Page*/
-.topicalContextbox{
+.topical-contextbox{
     -moz-box-align: center;
     box-sizing: 700px;
     padding: 30px;
     border: 20px;
     margin: 20px;
     text-align: left;   
+}
+
+.topical-box1{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    height: 400px;
+    column-gap: 150px;
+    row-gap: 40;
+
+}
+.topical-box2{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 400px;
+
 
 }
 
 /*Styles of the images on the Topical Page*/
-.topicalImage1 {
-    size: 30px;
-    border-radius: 8px;  
+.topical-image1 {
+    width:500px;
     transform: scale(1);
+   
 }
 
-.topicalImage2 {
-    size: 15px;
-    border-radius: 8px;  
-    transform: scale(1);
+.topical-image2 {
+    width: 500px; 
+    transform: scale(1)
+    
 }
 
-.topicalImage3 {
-    size: 15px;
-    border-radius: 8px;  
+.topical-image3 {
+    width: 500px; 
     transform: scale(1);
+    
 }
 
 .center {
@@ -188,20 +205,17 @@ body {
 }
 
 /*Styles of the caption underneath the images in the Topical Page*/
-.imgAuthor{
+.img-author{
     color: darkmagenta;
     font-family: Verdana, sans-serif, sans-serif;
     size: 150%;
-    cursor: pointer;
-    text-align: center;
-}
-
-.imgAuthor:hover{
-    color: black;
+    text-align: left;
 }
 
 
-/* Styles for accessibility page */
+
+
+/* Styles for ACCESSIBILITY PAGE */
 .accessibility {
     margin: 30px;
     color:black;
