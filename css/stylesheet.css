@@ -162,7 +162,62 @@ body {
     text-align: left;   
 }
 
-.topical-box1{
+.topical-subcontainer{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 400px 80px;
+    column-gap: 150px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.topical-subcontainer2{
+    display:block;
+    height: 100px;;
+}
+.topical-subcontainer3{
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    grid-template-rows: 400px 80px;
+    column-gap: 150px;
+    margin-bottom: 300px;
+}
+
+.topical-subcontainer4{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 400px 80px;
+    column-gap: 150px;
+    margin-bottom: 20px;
+}
+
+.topical-subcontainer5{
+    display:block;
+    height: 100px;;
+}
+
+/*.box1{
+   
+}
+.box2{
+   
+}
+.box3{
+   
+}
+.box4{
+  
+}
+.box5{
+  
+}
+.box6{
+    
+}*/
+
+
+
+/*.topical-box1{
     display: grid;
     grid-template-columns: 400px 1fr;
     height: 400px;
@@ -176,7 +231,7 @@ body {
     height: 400px;
 
 
-}
+}*/
 
 /*Styles of the images on the Topical Page*/
 .topical-image1 {
