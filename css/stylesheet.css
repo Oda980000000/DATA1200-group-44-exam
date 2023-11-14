@@ -295,7 +295,7 @@ p{
 }
 
 /*Styles of the caption underneath the images in the Topical Page*/
-.img-caption{
+.photo-caption{
     color: darkmagenta;
     font-weight: bold;
     font-family: Verdana, sans-serif, sans-serif;
@@ -304,7 +304,7 @@ p{
     margin-top: 30px;
     margin-bottom: 1%;
 }
-.img-author{
+.photo-credit{
     color: black;
     font-weight: normal;
     font-family: Verdana, sans-serif, sans-serif;
