@@ -152,9 +152,11 @@ body {
 .topical-contextbox{
     -moz-box-align: center;
     box-sizing: 700px;
-    padding: 30px;
+    /*padding: 30px;
     border: 20px;
-    margin: 20px;
+    margin: 20px;*/
+    margin-left: 10px;
+    margin-top: 0;
     text-align: left;   
 }
 
