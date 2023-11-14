@@ -118,14 +118,14 @@ body {
 
 /*Styles of the text on the Topical Page*/
 
-.topical-main-heading{
+.main-heading{
     font-family: Verdana, sans-serif;
     font-size: 230%;
     color: black;
     text-align: center;
 }
 
-.topical-subheadings{
+.purple-subheadings{
     font-family: Verdana, sans-serif;
     font-size: 150%;
     color: darkmagenta;
@@ -133,7 +133,7 @@ body {
     
 }
 
-.topical-links{
+.links{
     color: blue;
     font-family: Verdana, sans-serif;
     font-size: 80%;
@@ -148,8 +148,8 @@ body {
 
 }
 
-/*Style of the content box in the Topical Page*/
-.topical-contextbox{
+/*Style of the content box in the pages*/
+.contextbox{
     -moz-box-align: center;
     box-sizing: 700px;
     /*padding: 30px;
@@ -160,6 +160,7 @@ body {
     text-align: left;   
 }
 
+/*Style of the grids of the different pagese*/
 .topical-subcontainer{
     display: grid;
     grid-template-columns: 400px 700px;
