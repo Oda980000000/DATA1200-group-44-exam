@@ -312,12 +312,12 @@ p {
 .menuBar-accessibility {
     overflow: hidden;
     background-color: black;
-    background: linear-gradient(to bottom right, #003366 0%, #009933 90%);
+    background: linear-gradient(to bottom right,#009933 0%,#003366 90%);
 }
 
 .menuBar-accessibility a {
     float: left;
-    color: whitesmoke;
+    color: black;
     text-align: center;
     padding: 25px;
     text-decoration: none;
@@ -350,7 +350,7 @@ p {
 .footer-accessibility {
     overflow: hidden;
     background-color: black;
-    background: linear-gradient(to bottom right, #003366 0%, #009933 90%);
+    background: linear-gradient(to bottom right, #009933 0%, #003366 90%);
     padding:70px;
 }
 
