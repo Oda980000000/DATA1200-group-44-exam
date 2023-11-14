@@ -341,7 +341,6 @@ p{
     overflow: hidden;
     background-color: black;
     background: linear-gradient(to bottom right, #ffcc00 0%, #990099 90%);
-    width:90%;
     padding:70px;
 }
 
