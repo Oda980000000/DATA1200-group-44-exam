@@ -30,6 +30,7 @@ p {
     color: black;
 }
 
+
 .menuBar {
     overflow: hidden;
     background-color: black;
@@ -140,7 +141,7 @@ p {
 
 
 
-/*Styles of the */
+/*Styles that are unique to the Topical Page content */
 
 .main-heading{
     font-family: Verdana, sans-serif;
@@ -164,13 +165,7 @@ p {
 
 }
 
-p{
-    font-family: Verdana, sans-serif;
-    font-size: 100%;
-    color: black;
-   
 
-}
 
 
 
