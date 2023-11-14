@@ -345,6 +345,7 @@ p {
     size: 150%
 }
 
+/* Styles for FOOTER accessibility*/
 .footer-accessibility {
     overflow: hidden;
     background-color: black;
