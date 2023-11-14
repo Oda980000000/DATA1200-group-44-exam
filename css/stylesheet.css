@@ -335,7 +335,7 @@ p {
     font-family:Verdana, sans-serif, sans-serif;
     size: 120%
 }
-
+/*
 .wcag {
     width: 30%;
     padding: 15px;
@@ -344,6 +344,7 @@ p {
     font-family: Verdana, sans-serif, sans-serif;
     size: 150%
 }
+*/
 
 /* Styles for FOOTER accessibility*/
 .footer-accessibility {
