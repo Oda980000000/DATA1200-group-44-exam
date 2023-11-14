@@ -114,9 +114,9 @@ body {
 
 
 
-/*THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS THE STYLE OF THE TOPICAL PAGE*/
 
-/*Styles of the text on the Topical Page*/
+
+/*Styles of the */
 
 .main-heading{
     font-family: Verdana, sans-serif;
@@ -148,7 +148,9 @@ p{
 
 }
 
-/*Style of the content box in the pages*/
+
+
+/*Style of the content box on the pages*/
 .contextbox{
     -moz-box-align: center;
     box-sizing: 700px;
@@ -160,7 +162,9 @@ p{
     text-align: left;   
 }
 
-/*Style of the grids of the different pagese*/
+/*THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS THE STYLE OF THE GRIDS OF THE PAGES*/
+
+/*Style of the grids of the topical page*/
 .topical-subcontainer{
     display: grid;
     grid-template-columns: 400px 700px;
