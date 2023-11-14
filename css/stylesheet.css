@@ -308,6 +308,27 @@ p {
 
 
 /* Styles for ACCESSIBILITY PAGE */
+
+.menuBar-accessibility {
+    overflow: hidden;
+    background-color: black;
+    background: linear-gradient(to bottom right, #003366 0%, #009933 90%);
+}
+
+.menuBar-accessibility a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+  }
+  
+  .menuBar-accessibility a:hover {
+    color:black;
+    font-weight:bold;
+  }
 .accessibility {
     margin: 30px;
     color:black;
@@ -323,7 +344,23 @@ p {
     font-family: Verdana, sans-serif, sans-serif;
     size: 150%
 }
-*/
+
+.footer-accessibility {
+    overflow: hidden;
+    background-color: black;
+    background: linear-gradient(to bottom right, #003366 0%, #009933 90%);
+    padding:70px;
+}
+
+.footer-accessibility a {
+    float:left;
+    color:whitesmoke;
+    text-align:left;
+    font-family:Verdana, sans-serif;
+    font-size:100%;
+  }
+
+
 
 
 /* Styles for FOOTER*/
@@ -347,7 +384,7 @@ p {
     color:whitesmoke;
     font-family:Verdana, sans-serif;
     font-size:100%;
-    width: 35%;
-    float: right;
+    width:35%;
+    float:right;
   }
   
