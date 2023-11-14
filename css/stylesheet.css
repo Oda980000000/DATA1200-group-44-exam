@@ -6,6 +6,30 @@ body {
     background-color:rgb(251, 221, 166);
 }
 
+/*add these for all but accessibility?*/
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 200%;
+    color: black;
+    text-align: left;
+    margin: 20px;
+}
+
+/*Subheading class for all the pages except the Accessibility page*/
+.purpleSubheading {
+    font-family: Verdana, sans-serif;
+    font-size: 150%;
+    color: darkmagenta;
+}
+
+/*^usikker på om dette er bedre løsning...*/
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+    color: black;
+}
+
 .menuBar {
     overflow: hidden;
     background-color: black;
