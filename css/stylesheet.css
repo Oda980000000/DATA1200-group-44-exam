@@ -130,6 +130,7 @@ p {
     justify-content: center;
 } */
 
+
 /* separate CSS for image site*/
 .topicalImages {
     font-family: Verdana, sans-serif;
@@ -157,6 +158,54 @@ p {
 }
 
 /* image style on image site */
+/*grid*/
+.image-subcontainer{
+    display: grid;
+    grid-template-columns: 400px 700px;
+    grid-template-rows: 400px 80px;
+    column-gap: 150px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.textbox1{
+    margin-left: 20px;
+}
+
+.imagesite-image1 {
+    width: 100%; 
+    transform: scale(1);
+    transition: transform .2s;
+}
+
+.imagesite-subheadings{
+    font-family: Verdana, sans-serif;
+    font-size: 150%;
+    color: darkmagenta;
+    margin-bottom: 0;
+    
+}
+
+.imagephoto-caption{
+    color: darkmagenta;
+    font-weight: bold;
+    font-family: Verdana, sans-serif, sans-serif;
+    font-size: 100%;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 1%;
+}
+.imagephoto-credit{
+    color: black;
+    font-weight: normal;
+    font-family: Verdana, sans-serif, sans-serif;
+    font-size: 80%;
+    text-align: left;
+    margin-top: 0;
+}
+
+
+/*
 .image-container{
     display: grid;
     grid-template-columns: 700px 400px;
@@ -167,7 +216,7 @@ p {
 
 .textbox1{
     margin-left: 20px;
-}
+} */
 
 
 
