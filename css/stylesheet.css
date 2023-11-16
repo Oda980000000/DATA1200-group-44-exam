@@ -35,6 +35,7 @@ p {
     overflow: hidden;
     background-color: black;
     background: linear-gradient(to bottom right, #ffcc00 0%, #990099 90%);
+
 }
 
 .menuBar a {
@@ -172,6 +173,7 @@ p {
     border: 20px;
     margin: 20px;*/
     margin-left: 10px;
+    margin-right:0;
     margin-top: 0;
     text-align: left;   
 }
