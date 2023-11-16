@@ -310,13 +310,34 @@ p {
 
 
 /* Styles for ACCESSIBILITY PAGE */
+
+.menuBar-accessibility {
+    overflow: hidden;
+    background-color: black;
+    background: linear-gradient(to bottom right,#009933 0%,#003366 90%);
+}
+
+.menuBar-accessibility a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+  }
+  
+  .menuBar-accessibility a:hover {
+    color:black;
+    font-weight:bold;
+  }
 .accessibility {
     margin: 30px;
     color:black;
     font-family:Verdana, sans-serif, sans-serif;
     size: 120%
 }
-
+/*
 .wcag {
     width: 30%;
     padding: 15px;
@@ -325,6 +346,24 @@ p {
     font-family: Verdana, sans-serif, sans-serif;
     size: 150%
 }
+*/
+
+/* Styles for FOOTER accessibility*/
+.footer-accessibility {
+    overflow: hidden;
+    background-color: black;
+    background: linear-gradient(to bottom right, #009933 0%, #003366 90%);
+    padding:70px;
+}
+
+.footer-accessibility a {
+    float:left;
+    color:whitesmoke;
+    text-align:left;
+    font-family:Verdana, sans-serif;
+    font-size:100%;
+  }
+
 
 
 
@@ -349,7 +388,7 @@ p {
     color:whitesmoke;
     font-family:Verdana, sans-serif;
     font-size:100%;
-    width: 35%;
-    float: right;
+    width:35%;
+    float:right;
   }
   
