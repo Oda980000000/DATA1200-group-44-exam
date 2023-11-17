@@ -109,7 +109,7 @@ p {
     align-items: center;
 }
 
-.aboutOslomet {
+.about-Oslomet {
     -moz-box-align: center;
     box-sizing: 700px;
     padding: 20px;
@@ -160,7 +160,7 @@ p {
 
 /* image style on image site */
 /*grid*/
-.image-subcontainer{
+.image-subcontainer1{
     display: grid;
     grid-template-columns: 400px 700px;
     grid-template-rows: 400px 80px;
@@ -169,15 +169,73 @@ p {
     margin-bottom: 200px;
 }
 
-.textbox1{
+.image-subcontainer2{
+    display: grid;
+    grid-template-columns: 700px 400px;
+    grid-template-rows: 400px 80px;
+    column-gap: 150px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.image-subcontainer3{
+    display: grid;
+    grid-template-columns: 700px 400px;
+    grid-template-rows: 400px 80px;
+    column-gap: 150px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.image-subcontainer4{
+    display: grid;
+    grid-template-columns: 700px 400px;
+    grid-template-rows: 400px 80px;
+    column-gap: 150px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.image-subcontainer5{
+    display: grid;
+    grid-template-columns: 400px 700px;
+    grid-template-rows: 400px 80px;
+    column-gap: 150px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.imagesite-subbox{
     margin-left: 20px;
+}
+.imagesite-subbox2{
+    margin-left: 40px;
+
 }
 
 .imagesite-image1 {
-    width: 100%; 
+    width: 400px; 
     transform: scale(1);
     transition: transform .2s;
 }
+
+.imagesite-image1:hover{
+    transform: scale(1.13);
+}
+
+
+.imagesite-double-images{
+    width: 400px;
+    transform: scale(1);
+    transition: transform .2s;
+}
+
+.imagesite-double-images:hover{
+    transform: scale(1.12);
+}
+
+
+
 
 .imagesite-subheadings{
     font-family: Verdana, sans-serif;
@@ -204,6 +262,7 @@ p {
     text-align: left;
     margin-top: 0;
 }
+
 
 
 /*
