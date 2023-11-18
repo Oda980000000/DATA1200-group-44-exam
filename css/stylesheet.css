@@ -486,12 +486,14 @@ p {
     color:black;
     font-weight:bold;
   }
+
 .accessibility {
     margin: 30px;
     color:black;
     font-family:Verdana, sans-serif, sans-serif;
     size: 120%
 }
+
 /*
 .wcag {
     width: 30%;
