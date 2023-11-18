@@ -30,13 +30,12 @@ p {
     color: black;
 }
 
-
+/*source for how to get fading colours:https://www.w3schools.com/howto/howto_js_topnav.asp*/
 .menuBar {
     overflow: hidden;
-    background-color: black;
     background: linear-gradient(to bottom right, #ffcc00 0%, #990099 90%);
-
 }
+
 
 .menuBar a {
     float: left;
@@ -49,7 +48,7 @@ p {
   }
   
   .menuBar a:hover {
-    color:black;
+    color:whitesmoke;
     font-weight:bold;
   }
 
@@ -177,13 +176,14 @@ p {
     padding: 5px;
 }
 
+/*source of how to get pictures on the same line:https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
 .one-row::after {
     content:"";
     clear: both;
     display: table;
 }
 
-/* image style on image site */
+/* image style to image site */
 /*grid*/
 .image-subcontainer1{
     display: grid;
@@ -468,7 +468,6 @@ p {
 
 .menuBar-accessibility {
     overflow: hidden;
-    background-color: black;
     background: linear-gradient(to bottom right,#009933 0%,#003366 90%);
 }
 
@@ -525,7 +524,7 @@ p {
 
 
 /* Styles for FOOTER*/
-.footer {
+/* .footer {
     overflow: hidden;
     background-color: black;
     background: linear-gradient(to bottom right, #ffcc00 0%, #990099 90%);
@@ -547,5 +546,52 @@ p {
     font-size:100%;
     width:40%;
     float:right;
+  } */
+
+  *{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
   }
+
+  .footer{
+    margin-top:150px;
+    width:100%;
+    padding:100px 15%;
+    background-color:grey;
+    display:flex;
+  }
+
+  .footer section{
+    text-align:center;
+  }
+
+
+  .footer section h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+
+  .column-1 a{
+    display:block;
+    color:whitesmoke;
+    margin-bottom:10px;
+  }
+
+  .column-2{
+    flex-grow:8;
+    float:right;
+  }
+
+  .coloumn-2 a{
+  display:block;
+  color:whitesmoke;
+  margin-bottom:10px;
+  
+}
+  
+
+
   
