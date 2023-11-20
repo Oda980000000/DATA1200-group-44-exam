@@ -496,16 +496,27 @@ p {
     size: 120%
 }
 
-/*
-.wcag {
-    width: 30%;
+
+aside.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #009933;
+    float: right;
+    width: 15%;
     padding: 15px;
     margin: 15px;
-    float: right;
     font-family: Verdana, sans-serif, sans-serif;
     size: 150%
 }
-*/
+/*aside.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+  */
 
 /* Styles for FOOTER accessibility*/
 .footer-accessibility {
