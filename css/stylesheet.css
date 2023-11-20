@@ -223,6 +223,14 @@ p {
 	width: 80%;
 }
 
+.column img{
+	margin-top:8px;
+	vertical-align: middle;
+	width: 100%;
+
+}
+
+
 
 
 .imageSite-wrapper{
@@ -233,6 +241,8 @@ p {
 	gap:1rem;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+
 
 
 .imagesite-image1 {
