@@ -568,7 +568,7 @@ aside.sticky {
   *{
     margin:0;
     padding:0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
     box-sizing: border-box;
  }
 
@@ -596,7 +596,7 @@ aside.sticky {
  }
 
  .footer section p{
-    float:right;
+    float:none;
        color:whitesmoke;
        text-align:center;
        font-family:Verdana, sans-serif;
