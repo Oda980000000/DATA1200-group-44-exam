@@ -470,7 +470,7 @@ p {
 
 .menuBar-accessibility {
     overflow: hidden;
-    background: linear-gradient(to bottom right,#009933 0%,#003366 90%);
+    background: linear-gradient(to bottom right,#009933 0%,#004081 90%);
 }
 
 .menuBar-accessibility a {
@@ -507,7 +507,7 @@ aside.sticky {
     padding: 15px;
     margin: 15px;
     font-family: Verdana, sans-serif, sans-serif;
-    size: 150%
+    size: 200%
 }
 /*aside.sticky {
   position: -webkit-sticky;
