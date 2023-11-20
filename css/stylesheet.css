@@ -564,6 +564,15 @@ aside.sticky {
     font-size: 150%;
 }
 
+aside.sticky ul li{
+    list-style: none;
+}
+
+.fa-star{
+    font-size:15px;
+    margin-right: 15px;
+}
+
 /*aside.sticky {
   position: -webkit-sticky;
   position: sticky;
