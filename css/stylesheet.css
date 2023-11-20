@@ -455,7 +455,7 @@ p {
 .photo-caption{
     color: darkmagenta;
     font-weight: bold;
-    font-family: Verdana, sans-serif, sans-serif;
+    font-family: Verdana, sans-serif;
     font-size: 100%;
     text-align: left;
     margin-top: 30px;
@@ -464,7 +464,7 @@ p {
 .photo-credit{
     color: black;
     font-style: italic;
-    font-family: Verdana, sans-serif, sans-serif;
+    font-family: Verdana, sans-serif;
     font-size: 80%;
     text-align: left;
     margin-top: 0;
@@ -500,7 +500,7 @@ p {
 .accessibility {
     margin: 30px;
     color:black;
-    font-family:Verdana, sans-serif, sans-serif;
+    font-family:Verdana, sans-serif;
     size: 120%
 }
 
@@ -514,7 +514,7 @@ aside.sticky {
     width: 15%;
     padding: 15px;
     margin: 15px;
-    font-family: Verdana, sans-serif, sans-serif;
+    font-family: Verdana, sans-serif;
     font-size: 150%;
 }
 
@@ -534,7 +534,7 @@ aside.sticky {
     background:linear-gradient(to bottom right,#009933 0%,#003366 90%);
     padding:50px;
     display:flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 .accesscontainer-1 a {
@@ -570,7 +570,7 @@ aside.sticky {
     background:linear-gradient(to bottom right, #447988 0%, #990099 90%);
     padding:50px;
     display:flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 .container-1 a {
