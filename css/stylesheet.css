@@ -34,7 +34,7 @@ p {
 /*source for how to get fading colours:https://www.w3schools.com/howto/howto_js_topnav.asp*/
 .menuBar {
     overflow: hidden;
-    background: linear-gradient(to bottom right, #d77c7c 0%, #990099 90%);
+    background: linear-gradient(to bottom right, #447988 0%, #990099 90%);
 }
 
 
@@ -558,7 +558,7 @@ aside.sticky {
 .footer {
     margin-top:70px;
     overflow: hidden;
-    background:linear-gradient(to bottom right, #ffcc00 0%, #990099 90%);
+    background:linear-gradient(to bottom right, #447988 0%, #990099 90%);
     padding:50px;
     display:flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
