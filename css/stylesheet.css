@@ -576,7 +576,7 @@ aside.sticky {
     margin-top: 70px;
     width: 100%;
     padding: 50px;
-    background: linear-gradient(to bottom right, #ffcc00 0%, #990099 90%);
+    background: linear-gradient(to bottom right, #447988 0%, #990099 90%);
     color: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
