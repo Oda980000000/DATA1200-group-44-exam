@@ -101,8 +101,6 @@ p {
 }
 
 
-
-
 /*I don´t think these are in use anymore. Should we take them away???*/
 .fotoCredit {
     color: black;
@@ -507,75 +505,108 @@ p {
 */
 
 /* Styles for FOOTER accessibility*/
-.footer-accessibility {
-    margin-top:70px;
-    overflow: hidden;
-    background:linear-gradient(to bottom right,#009933 0%,#003366 90%);
-    padding:50px;
-    display:flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-.accesscontainer-1 a {
-    display: block;
-    margin-bottom:10px; /*space from the text to the bottom*/
-  }
+.footer-accessibility{
+    margin-top: 70px;
+    width: 100%;
+    padding: 50px;
+    background: linear-gradient(to bottom right,#009933 0%,#003366 90%);
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 170px;
+ }
 
-.accesscontainer-2 p{
-    display:block;
-    margin-bottom:10px;
-  }
 
-.accesscontainer-2{
-    flex-grow:2;
-}
+ .footer-accessibility section{
+    text-align: center;
+ }
 
-.footer-accessibility p{
+
+ .footer-accessibility section h3{
+    font-weight:300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+ }
+
+ .footer-accessibility section p{
     float:right;
-    color:black;
-    text-align:center;
-    font-family:Verdana, sans-serif;
-    font-size:100%;
-    letter-spacing:1px;
-  } 
+       color:whitesmoke;
+       text-align:center;
+       font-family:Verdana, sans-serif;
+       font-size:100%;
+       letter-spacing:1px;
+       display: block;
+       margin-bottom:10px;
+    }
 
 
 
 
 /* Styles for FOOTER*/
-.footer {
-    margin-top:70px;
-    overflow: hidden;
-    background:linear-gradient(to bottom right, #ffcc00 0%, #990099 90%);
-    padding:50px;
-    display:flex;
+  *{
+    margin:0;
+    padding:0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    box-sizing: border-box;
+ }
 
-.container-1 a {
-    display: block;
-    margin-bottom:10px; /*space from the text to the bottom*/
-  }
+ .footer{
+    margin-top: 70px;
+    width: 100%;
+    padding: 50px;
+    background: linear-gradient(to bottom right, #ffcc00 0%, #990099 90%);
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 170px;
+ }
 
-.container-2 p{
-    display:block;
-    margin-bottom:10px;
-  }
 
-.container-2{
-    flex-grow:2;
-}
+ .footer section{
+    text-align: center;
+ }
 
-.footer p{
+
+ .footer section h3{
+    font-weight:300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+ }
+
+ .footer section p{
     float:right;
-    color:whitesmoke;
+       color:whitesmoke;
+       text-align:center;
+       font-family:Verdana, sans-serif;
+       font-size:100%;
+       letter-spacing:1px;
+       display: block;
+       margin-bottom:10px;
+    }
+
+
+ .form input{
+    width:400px;
+    height: 45px;
+    border-radius: 4px;
     text-align:center;
-    font-family:Verdana, sans-serif;
-    font-size:100%;
-    letter-spacing:1px;
-  } 
-  
+    margin-top:20px;
+    margin-bottom:40px;
+    outline:none;
+    border:none;
+ }
+
+ .form button{
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color:whitesmoke;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+ }
+ 
  
 
- 
   
