@@ -93,6 +93,14 @@ p {
     transform: scale(1.13);
 }
 
+.wrapper{
+    max-width:1200px;
+    margin:0 auto;
+    display:grid;
+    gap:1rem;
+    grid-template-columns: repeat(auto-fit, minmax(1fr));
+}
+
 .index-section{
     width: 1fr;
     padding: 50px;
@@ -332,12 +340,14 @@ p {
     margin-left: 10px;
     margin-right:0;
     margin-top: 0;
-    text-align: left;   
+    text-align: left; 
 }
 
 /*THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS THE STYLE OF THE GRIDS OF THE PAGES*/
 
 /*Style of the grids of the topical page*/
+
+
 .topical-subcontainer{
     display: grid;
     grid-template-columns: 400px 700px;
@@ -390,6 +400,7 @@ p {
 
 
 
+
 .box1{
     margin-left: 20px;
 }
@@ -399,9 +410,6 @@ p {
 .box6{
     margin-top: 0;
 }
-
-
-
 
 
 
@@ -470,7 +478,7 @@ p {
 
 .menuBar-accessibility {
     overflow: hidden;
-    background: linear-gradient(to bottom right,#009933 0%,#004081 90%);
+    background: linear-gradient(to bottom right,#009933 0%,#003366 90%);
 }
 
 .menuBar-accessibility a {
@@ -507,7 +515,7 @@ aside.sticky {
     padding: 15px;
     margin: 15px;
     font-family: Verdana, sans-serif, sans-serif;
-    size: 200%
+    size: 150%
 }
 /*aside.sticky {
   position: -webkit-sticky;
@@ -554,7 +562,7 @@ aside.sticky {
 
 
 
-/* Styles for FOOTER*/
+/* Styles for FOOTER ON ALL THE OTHER PAGES*/
 .footer {
     margin-top:70px;
     overflow: hidden;
