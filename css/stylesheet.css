@@ -93,7 +93,7 @@ p {
     transform: scale(1.13);
 }
 
-.wrapper{
+.index-wrapper{
     max-width:1200px;
     margin:0 auto;
     display:grid;
