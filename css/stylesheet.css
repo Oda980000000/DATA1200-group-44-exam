@@ -308,8 +308,6 @@ p {
 
 
 
-
-
 /*Style of the content box on the pages*/
 .contextbox{
     -moz-box-align: center;
@@ -323,10 +321,11 @@ p {
     text-align: left; 
 }
 
+
+
 /*THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS THE STYLE OF THE GRIDS OF THE PAGES*/
 
 /*Style of the grids of the topical page*/
-
 
 .topical-subcontainer{
 	margin-top: 150px;
