@@ -3,7 +3,8 @@
 
 /*background color for editing, white be harsh on eyes*/
 body {
-    background-color:rgb(251, 221, 166);
+    background-color:#FBECE5;
+    /*rgb(251, 221, 166);*/
 }
 
 /*add these for all but accessibility?*/
