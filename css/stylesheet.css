@@ -519,6 +519,10 @@ p {
     size: 120%
 }
 
+.accessibility-body{
+    background-color: #e3e7e1;
+}
+
 
 aside.sticky {
     position: -webkit-sticky;
