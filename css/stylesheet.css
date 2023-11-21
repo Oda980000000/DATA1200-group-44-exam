@@ -688,11 +688,8 @@ the background color with a green tint*/
     text-align:left;
 }
 
-/*This code creates a sticky box which stays in place at the top even when scrolling down
-
-The source we used to create this was:
-
-*/
+/*This code creates a sticky box that keeps its position while scrolling down
+The source we used to create this: https://www.w3schools.com/howto/howto_css_sticky_element.asp */
 aside.sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -703,7 +700,7 @@ aside.sticky {
     padding: 15px;
     margin: 15px;
     font-family: Verdana, sans-serif;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 aside.sticky ul li{
@@ -715,14 +712,6 @@ aside.sticky ul li{
     margin-right: 15px;
 }
 
-/*aside.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: yellow;
-  padding: 50px;
-  font-size: 20px;
-  */
 
 
 
