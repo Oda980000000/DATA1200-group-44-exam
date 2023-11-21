@@ -172,7 +172,7 @@ the ".col-1 a:hover"-code makes the text change to look like a link whenever it 
 
 .col-1 a:hover{
     text-decoration: underline;
-    color:blue;
+    color:darkblue;
 }
 
 /*Underneath a input-boxe where users may write in their email-adress is styled*/
