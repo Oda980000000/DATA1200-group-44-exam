@@ -54,10 +54,12 @@ p {
 
 
 
+
 /* Underneath follows the code for that styles the menu bar
 And to set the background with fading colors in the menu bar, 
 we used the following source:
-https://www.w3schools.com/howto/howto_js_topnav.asp*/
+https://www.w3schools.com/howto/howto_js_topnav.asp
+https://www.w3schools.com/colors/colors_gradient.asp*/
 .menuBar {
     overflow: hidden;
     background: linear-gradient(to bottom right, #990099 0%, #447988 90%);
