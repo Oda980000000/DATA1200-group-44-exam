@@ -640,9 +640,10 @@ is used to make the images zoom out when hovered over.*/
 
 
 
-/* THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS CODE THAT TARGET ELEMENTS THAT ARE UNIQUE TO ACCESSIBILITY.HTML*/
-/*Since the accessibility-page was the site we chose to create a different visual design on, this site should have 
-its own unique styling as well*/
+
+/* THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS CODE THAT TARGET ELEMENTS THAT ARE UNIQUE TO ACCESSIBILITY.HTML 
+WHICH IS THE SITE THAT CONTAINS A DIFFERENT VISUAL DESIGN*/
+
 
 /*The following code styles the menu bar on the accessibility site to have a different colour scheme than 
 the other sites. Here we used to pair two shades of green and fade them together to give the site a forrest
@@ -674,7 +675,9 @@ The ":hover"- makes the links bold and black whenever hovered over*/
 }
 
 
-/*This the access*/
+/*This places the body of the accessibility site into a contextbox that allows us to style the 
+main elements of the page directly. Here we place create the size and margins of the box and sets
+the background color with a green tint*/
 .accessibility-contentbox{
     background-color: #e3e7e1;
     -moz-box-align: center;
@@ -685,7 +688,11 @@ The ":hover"- makes the links bold and black whenever hovered over*/
     text-align:left;
 }
 
+/*This code creates a sticky box which stays in place at the top even when scrolling down
 
+The source we used to create this was:
+
+*/
 aside.sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -717,7 +724,11 @@ aside.sticky ul li{
   font-size: 20px;
   */
 
-/* Styles for FOOTER accessibility*/
+
+
+/* Underneath follows the code for Footer in the accessibility page. 
+First the footer is created and set to a green fading color. The same as with the 
+menu bar on this page*/
 
 .footer-accessibility{
     margin-top: 70px;
@@ -732,12 +743,12 @@ aside.sticky ul li{
     box-sizing: border-box;
  }
 
-
+/*This code places the text at the center*/
  .footer-accessibility section{
     text-align: center;
  }
 
-
+/*Underneath follows the codes that styles the text-elements of the accessibility site*/
  .footer-accessibility section h3{
     font-weight: 300;
     margin-bottom: 20px;
@@ -756,6 +767,7 @@ aside.sticky ul li{
     margin-bottom:10px;
     }
 
+/*Here the copyright icon is styled.*/
     .copyright-accessibility{
         font-size: 12px;
         font-weight: bold;
