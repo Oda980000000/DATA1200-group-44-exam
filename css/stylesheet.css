@@ -493,7 +493,7 @@ way than the other images.*/
 These links require a different style in order to make them
 intuitively appear as links to the user.*/
 .links{
-    color: blue;
+    color: darkblue;
     font-family: Verdana, sans-serif;
     font-size: 80%;
 
