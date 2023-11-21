@@ -122,7 +122,7 @@ https://www.w3schools.com/colors/colors_gradient.asp*/
 
 /* The following code contains the styling of the footer of all the pages. 
 The first codes underneath styles a box with a border where the */
- .footer{
+.footer{
     margin-top: 70px;
     width: 100%;
     padding: 50px;
@@ -178,7 +178,7 @@ the ".col-1 a:hover"-code makes the text change to look like a link whenever it 
 
 /*Underneath a input-boxe where users may write in their email-adress is styled*/
  form input{
-    width:270px;
+    width:200px;
     height: 45px;
     border-radius: 4px;
     text-align:center;
@@ -234,6 +234,14 @@ Here users may click on after writing in their email-adress in order subscribe*/
     position:relative;  
 }
 
+/* Source for responsive footer: https://www.youtube.com/watch?v=IWFCBvepUlY */
+@media (max-width:600px){
+   .footer{
+    display:inline-block;
+    margin-bottom:20px;
+   }
+}
+
 
 
 
@@ -275,10 +283,10 @@ Here users may click on after writing in their email-adress in order subscribe*/
     text-align: center;
 }
 .back-photo h1{
-    font-size:99px;
+    font-size:80px;
     color:whitesmoke;
     font-weight: 600;
-    margin-top: 110px;
+    margin-top: 160px;
     display: inline-block;
     transition: 0.5s;
     text-align: center;
@@ -302,6 +310,15 @@ Here users may click on after writing in their email-adress in order subscribe*/
     border-radius: 50px;
     margin-top: 20px;
 }
+/* Source for responsivity: https://www.youtube.com/watch?v=IWFCBvepUlY */
+@media (max-width:600px){
+    .back-photo{
+     display:inline-flexbox;
+     margin-bottom:20px;
+     margin-left: 0;
+     margin-right:0;
+    }
+ }
 
 
 
