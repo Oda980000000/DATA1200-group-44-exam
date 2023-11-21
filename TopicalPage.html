@@ -34,30 +34,35 @@ https://www.w3schools.com/howto/howto_js_topnav.asp-->
     <a href="accessibility.html"> Accessibility page</a>
 </nav>
 </header>
-<!--<img src="img/iconMoon.png" alt="Moon" width="30" height="25"></a> 
-<a class="active" href="index.html">Introduction page</a>
-<a href="topicalPage.html"> Topical page</a>
-<a href="imageSite.html"> Image page</a>
-<a href="accessibility.html"> Accessibility page</a>-->
 
 
 
-
+<!--The body of this webpage is placed within the contextbox-class in order to 
+style it directly in the css.-->
 <body class="contextbox">
     
+     <!--Here the main heading of the webpage is established, and placed within the "main-headning"-class 
+    which gives all the main headings of our webpages the same style-->
     <section class="welcome">
         <h1 class = "main-heading">Oslo Metropolitan University</h1>
     </section>
 
-    <section class= "topical-wrapper">
+
+     <!--Here a wrapper is creaed to place these the elements of <section class="topical-image-container"> 
+    and <article class="topical-subcontainer"> into the same grid which is styled more spesifically in the 
+    stylesheet.css to appear next to eachother. This grids are also made responsive in the css.-->
+    <article class= "topical-wrapper">
         <section class= "topical-image-container">
             <img class="topical-image1" src="img/oslomet-logo.JPEG" alt= "OsloMets background. Black text on yellow background." class="center"/>
             <p class="photo-caption"> The logo of OsloMet </p>
             <!--This photo was taken by one of the groupmembers-->
             <p class="photo-credit"> Photo: Private </p>
         </section>
-    
-        <section class= "topical-subcontainer">
+
+        <aricle class= "topical-subcontainer">
+
+             <!--All the subheadings of the topical page - as well as the imageSite.html and index.html 
+                are styled the same way by using the "purple-subheadnings"-class.-->
             <h2 class = "purple-subheadings"> OsloMet´s History </h2>
             <br>
             <!-- The source used for the text in this paragraph: OsloMet B, 2023; Hansen & Messel 2023 
@@ -73,14 +78,15 @@ https://www.w3schools.com/howto/howto_js_topnav.asp-->
                 The university has its main campus at Pilestredet in Oslo, as well as one at Kjeller in Skedsmo. 
             </p> 
             <a class="links" href= "https://www.oslomet.no">OsloMet´s official website</a >
-        </section>
-    </section>
+            </article>
+    </article>
 
 
-    
-    <section class= "topical-wrapper">
-
-        <section class= "topical-subcontainer">
+    <!--Here another wrapper is established in almost the same way as above. 
+    Except this wrapper places the text on the left
+    and the image on the right. Whereas the first one places it the other way around.-->    
+    <article class= "topical-wrapper">
+        <article class= "topical-subcontainer">
             <h3 class="purple-subheadings"> Pilestredet Campus and Pilestredet 35 </h3>
             <br>
 
@@ -127,8 +133,7 @@ https://www.w3schools.com/howto/howto_js_topnav.asp-->
                 information and visuals about OsloMet-->
                 <a class="links" href= "https://use.mazemap.com/#v=1&center=10.735225,59.921179&zoom=15.9&zlevel=1&campusid=53">
                 View Pilestredet on Mazemap.</a>  
-            </section>
-        
+            </article>
             <section class= "topical-image-container">
                 <img class="topical-image2" src="img/pilestredet35.JPEG" alt= "an image of the facade of the building Pilestredet 35 Ellen Gleditschs hus" class="center"/> 
                 <br>
@@ -136,23 +141,29 @@ https://www.w3schools.com/howto/howto_js_topnav.asp-->
                 <!--This photo was taken by one of the groupmembers-->
                 <p class="photo-credit"> Photo: Private</p>
             </section>
-        
-        </section>
-        
+        </article>
         
         
+         <!--The following code creates a container with a quote. Because this element is supposed to have a
+        different appearance and visual design than the other elements, the container and paragraphs are  
+        given unique clases in order to target them directly in the stylesheet.-->
         <section class="topical-quote-container">
+
+             <!-- The source used for this quote is: Kronen & Pedersen, 2023
+                (full source at the bottom of the page) --> 
             <p class="quote"> "Throughout her long life, Ellen Gleditsch was admired,<br>
                 not only for her scientific achievements and the honors she was awarded, <br>
                 but at least as much for her goodness, wisdom, and help"
             </p> 
             <p class="citation-origin">    
                 - Alexis Pappas. 
-            </p> <!--Source: Kronen & Pedersen, 2023-->
+            </p>
         </section>
         
-        
-        <section class= "topical-wrapper">
+
+        <!--Here the third wrapper of this page is established and it has the same setup as the
+        first wrapper. With the image to the left and the textbox to the right.-->  
+        <article class= "topical-wrapper">
             <section class= "topical-image-container">
                 <img class= "topical-image3" src="img/ellen.JPEG" alt= "An image of an information sign about Ellen Gleditsch" class="center"/>
 
@@ -161,9 +172,12 @@ https://www.w3schools.com/howto/howto_js_topnav.asp-->
                 <p class="photo-credit"> Photo: Private </p>
             </section>
         
-            <section class= "topical-subcontainer">
+            <article class= "topical-subcontainer">
                 <h4 class = "purple-subheadings"> Ellen Gleditsch </h4>
                 <br>
+
+                <!-- The source used for the following paragraph is: OsloMet A, 2023. Kronen & Pedersen, 2023
+                (full source at the bottom of the page) --> 
                 <p> Ellen Gleditsch was born in 1879 and grew up in Tromsø. She was a chemist and 
                     was, among other things, a research assistant for Marie Curie. 
                     <br>
@@ -172,16 +186,15 @@ https://www.w3schools.com/howto/howto_js_topnav.asp-->
                     She was Norway's first specialist in radioactivity and became Norway's second female professor. 
                     <br>
                     For her important achievements, she was honored with awards such as an honorary doctorate at the University of Sorbonne and the University of Strasbourg. In addition, she was also created as a Knight of the 1st class of the Norwegian Order of St. Olav.
-                </p> <!-- Sources: OsloMet A, 2023. Kronen & Pedersen, 2023. -->
+                </p>
 
                  <!--Here a links are created to connect the topical page to other sources of 
                 information and visuals about OsloMet-->
                 <a class="links" href= "https://snl.no/Ellen_Gleditsch">Learn more about Ellen Gleditsch.</a>
-            </section>
-        
+            </article>
+    
             
-        
-        </section>
+        </article>
     
 </body>   
 
