@@ -111,7 +111,7 @@ https://www.w3schools.com/colors/colors_gradient.asp*/
 .contextbox{
     -moz-box-align: center;
     box-sizing: 700px;
-    margin-left: 10px;
+    margin-left: 0;
     margin-right:0;
     margin-top: 0;
     text-align: left; 
