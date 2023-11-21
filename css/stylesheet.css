@@ -233,6 +233,7 @@ Here users may click on after writing in their email-adress in order subscribe*/
     position:relative;  
 }
 
+/* Source for responsive footer: https://www.youtube.com/watch?v=IWFCBvepUlY */
 @media (max-width:600px){
    .footer{
     display:inline-block;
@@ -315,7 +316,7 @@ Here users may click on after writing in their email-adress in order subscribe*/
     border-radius: 50px;
     margin-top: 20px;
 }
-
+/* Source for responsivity: https://www.youtube.com/watch?v=IWFCBvepUlY */
 @media (max-width:600px){
     .back-photo{
      display:inline-flexbox;
@@ -324,6 +325,7 @@ Here users may click on after writing in their email-adress in order subscribe*/
      margin-right:0;
     }
  }
+
 
 
 
