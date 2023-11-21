@@ -199,7 +199,7 @@ Here users may click on after writing in their email-adress in order subscribe*/
     cursor: pointer;
  }
 
-/*Underneath the social media-ikons used in the footer are styled to spesific colours and sizes.*/
+/*Underneath the social media-icons used in the footer are styled to spesific colours and sizes.*/
 .fa-facebook-f{
     font-size: 30px;
     color: rgb(41, 41, 129);
@@ -226,7 +226,7 @@ Here users may click on after writing in their email-adress in order subscribe*/
 }
 
 
-/*The copyright-ikon is here styled with a spesific boldness, size and positioning*/
+/*The copyright-icon is here styled with a spesific boldness, size and positioning*/
 .fa-copyright{
     font-size:12px;
 }
