@@ -409,14 +409,11 @@ and then made the images appear at the same line.
 
 To get pictures on the same line we took inspiration from the code on the following source:
 https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
-* {
-    box-sizing: border-box;
-  }
-
 .column { 
     float: left;
     width: 50%; /*33.33%;*/
     padding: 5px;
+    box-sizing: border-box;
 }
 .column img{
    width: 97%;
