@@ -119,7 +119,8 @@ https://www.w3schools.com/colors/colors_gradient.asp*/
 
 
 
-/* The following code contains the styling of the footer of all the pages*/
+/* The following code contains the styling of the footer of all the pages. 
+The first codes underneath styles a box with a border where the */
 *{
     margin:0;
     padding:0;
@@ -138,7 +139,8 @@ https://www.w3schools.com/colors/colors_gradient.asp*/
     column-gap: 170px;
  }
 
-
+/*The following three codes styles much of the text placed in the footer. By placing it in center, 
+giving it a size and spacing, and setting the whitesmoke-color.*/
  .footer section{
     text-align: center;
  }
@@ -162,6 +164,10 @@ https://www.w3schools.com/colors/colors_gradient.asp*/
     margin-bottom:10px;
     }
 
+
+/*These two codes styles the link elements inside the first column in the footer. 
+The ".col-1 a"-code makes the text appear the same as the other footer-text. However,
+the ".col-1 a:hover"-code makes the text change to look like a link whenever it is hovered over*/
 .col-1 a{
     display:block;
     text-decoration: none;
@@ -169,7 +175,12 @@ https://www.w3schools.com/colors/colors_gradient.asp*/
     margin-bottom:10px;
 }
 
-/*Underneath a input-boxes where users may write in their email-adress is styled*/
+.col-1 a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+
+/*Underneath a input-boxe where users may write in their email-adress is styled*/
  form input{
     width:270px;
     height: 45px;
@@ -181,8 +192,8 @@ https://www.w3schools.com/colors/colors_gradient.asp*/
     border:none;
  }
 
-/*This code creates a button users may click on after writing in their email-adress in order 
-subscribe*/
+/*This code creates a button underneath the input-box for the email-adress.
+Here users may click on after writing in their email-adress in order subscribe*/
  form button{
     background: transparent;
     border: 2px solid whitesmoke;
@@ -192,11 +203,6 @@ subscribe*/
     font-size: 15px;
     cursor: pointer;
  }
-
-.logo-details{
-    color:whitesmoke;
-    font-size:20px;
-}
 
 /*Underneath the social media-ikons used in the footer are styled to spesific colours and sizes.*/
 .fa-facebook-f{
@@ -224,11 +230,11 @@ subscribe*/
     color: black;
 }
 
+
 /*The copyright-ikon is here styled with a spesific boldness, size and positioning*/
 .fa-copyright{
     font-size:12px;
 }
-
 .copyright{
     font-size: 12px;
     font-weight: bold;
@@ -541,8 +547,9 @@ We used the following sources:
 
 
 
-/*With the "topical-wrapper"-class we placed is used to create grid and make it 
-responsive so that it adapts the content whenever viewed on other devices 
+/*With the "topical-wrapper"-class we placed is used to create grid template with to grid boxes 
+aside of eachother. And make it we used the "repeat(auto-fit, minmax(300px, 1fr))"-code. This
+makes the bokses responsive so that it adapts the content whenever viewed on other devices 
 or when zooming the webbrowser in or out.
 
 Sources used to do this:
@@ -662,7 +669,8 @@ is used to make the images zoom out when hovered over.*/
     font-weight:bold;
   }
 
-.accessibility {
+
+  .accessibility {
     margin: 30px;
     color:black;
     font-family:Verdana, sans-serif;
