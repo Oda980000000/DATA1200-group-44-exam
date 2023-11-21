@@ -688,11 +688,9 @@ the background color with a green tint*/
     text-align:left;
 }
 
-/*This code creates a sticky box which stays in place at the top even when scrolling down
+/*This code creates a sticky box which stays in place at the top even when scrolling down.
 
-The source we used to create this was:
-
-*/
+The source we used to create this was:*/
 aside.sticky {
     position: -webkit-sticky;
     position: sticky;
