@@ -84,12 +84,12 @@ https://www.w3schools.com/howto/howto_js_topnav.asp
 https://www.w3schools.com/colors/colors_gradient.asp*/
 .menuBar {
     overflow: hidden;
-    background: linear-gradient(to bottom right, #990099 0%, #447988 90%);
+    background: linear-gradient(to bottom right, rgb(118, 118, 225) 0%, #2d3133 90%);
     width:100%;
 }
 
 
-/*The following two styles sets the design of the text and links availeble in the menu bar.*/
+/*The following two styles sets the design of the text and links available in the menu bar.*/
 .menuBar a {
     float: left;
     color: whitesmoke;
@@ -125,7 +125,7 @@ The first codes underneath styles a box with a border where the */
     margin-top: 70px;
     width: 100%;
     padding: 50px;
-    background: linear-gradient(to bottom right, #447988 0%, #990099 90%);
+    background: linear-gradient(to bottom right, #2d3133 0%, rgb(118, 118, 225) 90%);
     color: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -199,7 +199,7 @@ Here users may click on after writing in their email-adress in order subscribe*/
     cursor: pointer;
  }
 
-/*Underneath the social media-ikons used in the footer are styled to spesific colours and sizes.*/
+/*Underneath the social media-icons used in the footer are styled to spesific colours and sizes.*/
 .fa-facebook-f{
     font-size: 30px;
     color: rgb(41, 41, 129);
@@ -226,7 +226,7 @@ Here users may click on after writing in their email-adress in order subscribe*/
 }
 
 
-/*The copyright-ikon is here styled with a spesific boldness, size and positioning*/
+/*The copyright-icon is here styled with a spesific boldness, size and positioning*/
 .fa-copyright{
     font-size:12px;
 }
@@ -274,6 +274,7 @@ Here users may click on after writing in their email-adress in order subscribe*/
 .back-photo{
     min-height: 100vh;
     width:100%;
+    /*The photo was taken by one of the groupmember*/
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/pilestredet35.JPEG);
     background-position: center;
     background-size: cover;
@@ -639,15 +640,24 @@ is used to make the images zoom out when hovered over.*/
 
 
 
-/* THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS CODE THAT TARGET ELEMENTS THAT ARE UNIQUE TO ACCESSIBILITY.HTML*/
-/*Since the accessibility-page*/
 
+/* THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS CODE THAT TARGET ELEMENTS THAT ARE UNIQUE TO ACCESSIBILITY.HTML 
+WHICH IS THE SITE THAT CONTAINS A DIFFERENT VISUAL DESIGN*/
+
+
+/*The following code styles the menu bar on the accessibility site to have a different colour scheme than 
+the other sites. Here we used to pair two shades of green and fade them together to give the site a forrest
+theme.
+To fade the colors we used the following source:
+:https://www.w3schools.com/howto/howto_js_topnav.asp
+https://www.w3schools.com/colors/colors_gradient.asp*/
 .menuBar-accessibility {
     overflow: hidden;
     background: linear-gradient(to bottom right,#003366 0%,#009933 90%);
 }
 
-
+/*These two codes creates the style of the links in the menu bar. Their color, size and spacing.
+The ":hover"- makes the links bold and black whenever hovered over*/
 .menuBar-accessibility a {
     float: left;
     color: whitesmoke;
@@ -660,23 +670,29 @@ is used to make the images zoom out when hovered over.*/
   }
   
   .menuBar-accessibility a:hover {
-    color:black;
+    color:whitesmoke;
     font-weight:bold;
-  }
-
-
-  .accessibility {
-    margin: 30px;
-    color:black;
-    font-family:Verdana, sans-serif;
-    size: 120%
 }
 
-.accessibility-body{
+
+/*This places the body of the accessibility site into a contextbox that allows us to style the 
+main elements of the page directly. Here we place create the size and margins of the box and sets
+the background color with a green tint*/
+.accessibility-contentbox{
     background-color: #e3e7e1;
+    -moz-box-align: center;
+    box-sizing: 700px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top:0;
+    text-align:left;
 }
 
+/*This code creates a sticky box which stays in place at the top even when scrolling down
 
+The source we used to create this was:
+
+*/
 aside.sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -708,7 +724,11 @@ aside.sticky ul li{
   font-size: 20px;
   */
 
-/* Styles for FOOTER accessibility*/
+
+
+/* Underneath follows the code for Footer in the accessibility page. 
+First the footer is created and set to a green fading color. The same as with the 
+menu bar on this page*/
 
 .footer-accessibility{
     margin-top: 70px;
@@ -723,12 +743,12 @@ aside.sticky ul li{
     box-sizing: border-box;
  }
 
-
+/*This code places the text at the center*/
  .footer-accessibility section{
     text-align: center;
  }
 
-
+/*Underneath follows the codes that styles the text-elements of the accessibility site*/
  .footer-accessibility section h3{
     font-weight: 300;
     margin-bottom: 20px;
@@ -747,6 +767,7 @@ aside.sticky ul li{
     margin-bottom:10px;
     }
 
+/*Here the copyright icon is styled.*/
     .copyright-accessibility{
         font-size: 12px;
         font-weight: bold;
