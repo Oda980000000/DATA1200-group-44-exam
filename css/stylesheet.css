@@ -127,6 +127,14 @@ https://www.w3schools.com/howto/howto_js_topnav.asp*/
 
 /*text to the background image on INDEX.HTML*/
 .back-photo{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/oslometlogo-small.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.back-photo{
     text-align: center;
 }
 .back-photo h1{
@@ -156,6 +164,8 @@ https://www.w3schools.com/howto/howto_js_topnav.asp*/
     border-radius: 50px;
     margin-top: 20px;
 }
+
+
 
 
 
