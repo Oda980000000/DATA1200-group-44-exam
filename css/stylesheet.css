@@ -640,14 +640,22 @@ is used to make the images zoom out when hovered over.*/
 
 
 /* THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS CODE THAT TARGET ELEMENTS THAT ARE UNIQUE TO ACCESSIBILITY.HTML*/
-/*Since the accessibility-page*/
+/*Since the accessibility-page was the site we chose to create a different visual design on, this site should have 
+its own unique styling as well*/
 
+/*The following code styles the menu bar on the accessibility site to have a different colour scheme than 
+the other sites. Here we used to pair two shades of green and fade them together to give the site a forrest
+theme.
+To fade the colors we used the following source:
+:https://www.w3schools.com/howto/howto_js_topnav.asp
+https://www.w3schools.com/colors/colors_gradient.asp*/
 .menuBar-accessibility {
     overflow: hidden;
     background: linear-gradient(to bottom right,#003366 0%,#009933 90%);
 }
 
-
+/*These two codes creates the style of the links in the menu bar. Their color, size and spacing.
+The ":hover"- makes the links bold and black whenever hovered over*/
 .menuBar-accessibility a {
     float: left;
     color: whitesmoke;
@@ -659,21 +667,21 @@ is used to make the images zoom out when hovered over.*/
     letter-spacing: 2px;
   }
   
-  .menuBar-accessibility a:hover {
+.menuBar-accessibility a:hover {
     color:black;
     font-weight:bold;
-  }
-
-
-  .accessibility {
-    margin: 30px;
-    color:black;
-    font-family:Verdana, sans-serif;
-    size: 120%
 }
 
-.accessibility-body{
+
+/*This the access*/
+.accessibility-contentbox{
     background-color: #e3e7e1;
+    -moz-box-align: center;
+    box-sizing: 700px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top:0;
+    text-align:left;
 }
 
 
