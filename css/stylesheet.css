@@ -121,13 +121,6 @@ https://www.w3schools.com/colors/colors_gradient.asp*/
 
 /* The following code contains the styling of the footer of all the pages. 
 The first codes underneath styles a box with a border where the */
-*{
-    margin:0;
-    padding:0;
-    font-family: Verdana, sans-serif;
-    box-sizing: border-box;
- }
-
  .footer{
     margin-top: 70px;
     width: 100%;
@@ -137,6 +130,8 @@ The first codes underneath styles a box with a border where the */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 170px;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
  }
 
 /*The following three codes styles much of the text placed in the footer. By placing it in center, 
@@ -757,119 +752,6 @@ aside.sticky ul li{
         font-weight: bold;
         position:relative;  
     }
-
-
-
-
-
-/* Styles for FOOTER*/
- .footer{
-    margin-top: 70px;
-    width: 100%;
-    padding: 50px;
-    background: linear-gradient(to bottom right, #447988 0%, #990099 90%);
-    color: whitesmoke;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 170px;
-    font-family: Verdana, sans-serif;
-    box-sizing: border-box;
- }
-
-
- .footer section{
-    text-align: center;
- }
-
-
- .footer section h3{
-    font-weight:300;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    letter-spacing: 1px;
- }
-
- .footer section p{
-    float:none;
-    color:whitesmoke;
-    text-align:center;
-    font-family:Verdana, sans-serif;
-    font-size:100%;
-    letter-spacing:1px;
-    display: block;
-    margin-bottom:10px;
-    }
-
-.col-1 a{
-    display:block;
-    text-decoration: none;
-    color: whitesmoke;
-    margin-bottom:10px;
-}
-
-
- form input{
-    width:270px;
-    height: 45px;
-    border-radius: 4px;
-    text-align:center;
-    margin-top:10px;
-    margin-bottom:40px;
-    outline:none;
-    border:none;
- }
-
- form button{
-    background: transparent;
-    border: 2px solid whitesmoke;
-    color:whitesmoke;
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: 12px;
-    cursor: pointer;
- }
-
-.logo-details{
-    color:whitesmoke;
-    font-size:20px;
-}
-
-/*ICONS*/
-.fa-facebook-f{
-    font-size: 30px;
-    color: rgb(41, 41, 129);
-}
-
-.fa-instagram{
-    font-size:30px;
-    color: rgb(110, 6, 110);
-}
-
-.fa-snapchat{
-    font-size:30px;
-    color:rgba(255, 255, 0, 0.777);
-}
-
-.fa-twitter{
-    font-size:30px;
-    color:skyblue;
-}
-
-.fa-tiktok{
-    font-size:30px;
-    color: black;
-}
-
-.fa-copyright{
-    font-size:12px;
-}
-
-.copyright{
-    font-size: 12px;
-    font-weight: bold;
-    position:relative;  
-}
-
 
 
 
