@@ -38,7 +38,7 @@ p {
 /*source for how to get fading colours:https://www.w3schools.com/howto/howto_js_topnav.asp*/
 .menuBar {
     overflow: hidden;
-    background: linear-gradient(to bottom right, #447988 0%, #990099 90%);
+    background: linear-gradient(to bottom right,#990099 0%, #2f3131 85%);
 }
 
 .menuBar a {
@@ -103,42 +103,50 @@ p {
     margin-bottom: 10px;
 }
 
+
 .picvid{
-    text-align: center;
-}
-
-.picvid h1{
-    font-size:70px;
-    color:whitesmoke;
-    font-weight: 600;
-    transition: 0.5s;
-    margin-top: auto;
-    text-align: center;
-}
-.picvid h1:hover{
-    -webkit-text-stroke:2px whitesmoke;
-    color: transparent;
-}
-
-.picvid a{
-    text-decoration: none;
-    display: inline-block;
-    color:whitesmoke;
-    font-size: 240x;
-    border: 2px solid whitesmoke;
-    padding: 14px 70px;
-    border-radius: 50px;
-    margin-top:70px;
-}
-
-.back-photo{
     min-height: 100vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/oslometlogo-small.jpg);
+    background-image: linear-gradient(rgba(49, 51, 65, 0.7),rgba(49, 54, 73, 0.7)),url(/img/pilestredet35.JPEG);
     background-position: center;
     background-size: cover;
     position: relative;
 }
+
+/*text to the background image on INDEX.HTML*/
+.back-photo{
+    text-align: center;
+}
+.back-photo h1{
+    font-size:100px;
+    color:whitesmoke;
+    font-weight: 600;
+    margin-top: 80px;
+    display: inline-block;
+    color:whitesmoke;
+    font-weight: 600;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.back-photo h1:hover{
+    -webkit-text-stroke:2px whitesmoke;
+    color: transparent;
+}
+
+.back-photo a{
+    text-decoration: none;
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+
+
 
 /*I don´t think these are in use anymore. Should we take them away???*/
 .fotoCredit {
