@@ -60,9 +60,10 @@ we used the following source:
 https://www.w3schools.com/howto/howto_js_topnav.asp*/
 .menuBar {
     overflow: hidden;
-    background: linear-gradient(to bottom right, #447988 0%, #990099 90%);
+    background: linear-gradient(to bottom right, #990099 0%, #447988 90%);
     width:100%;
 }
+
 
 /*The following two styles sets the design of the text and links availeble in the menu bar.*/
 .menuBar a {
@@ -116,20 +117,11 @@ https://www.w3schools.com/howto/howto_js_topnav.asp*/
 }
 
 
-.back-image{
-    min-height: 100vh;
-    width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/oslometlogo-small.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
 /*text to the background image on INDEX.HTML*/
 .back-photo{
     min-height: 100vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/oslometlogo-small.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/pilestredet35.JPEG);
     background-position: center;
     background-size: cover;
     position: relative;
