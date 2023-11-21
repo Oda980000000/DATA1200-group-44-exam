@@ -589,7 +589,7 @@ aside.sticky ul li{
  }
 
  .footer-accessibility section p{
-    float:right;
+    float:none;
     color:whitesmoke;
     text-align:center;
     font-family:Verdana, sans-serif;
