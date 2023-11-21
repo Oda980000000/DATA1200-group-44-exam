@@ -304,9 +304,10 @@ Here users may click on after writing in their email-adress in order subscribe*/
     display: inline-block;
     color:whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 240x;
+    font-size: 18px;
     border: 2px solid whitesmoke;
-    padding: 14px 70px;
+    font-weight: bold;
+    padding: 14px 50px;
     border-radius: 50px;
     margin-top: 20px;
 }
