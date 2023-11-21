@@ -84,7 +84,7 @@ https://www.w3schools.com/howto/howto_js_topnav.asp
 https://www.w3schools.com/colors/colors_gradient.asp*/
 .menuBar {
     overflow: hidden;
-    background: linear-gradient(to bottom right, #990099 0%, #447988 90%);
+    background: linear-gradient(to bottom right, rgb(118, 118, 225) 0%, #2d3133 90%);
     width:100%;
 }
 
@@ -125,7 +125,7 @@ The first codes underneath styles a box with a border where the */
     margin-top: 70px;
     width: 100%;
     padding: 50px;
-    background: linear-gradient(to bottom right, #447988 0%, #990099 90%);
+    background: linear-gradient(to bottom right, #2d3133 0%, rgb(118, 118, 225) 90%);
     color: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
