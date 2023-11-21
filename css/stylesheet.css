@@ -135,9 +135,9 @@ https://www.w3schools.com/howto/howto_js_topnav.asp*/
     font-weight: 600;
     margin-top: 80px;
     display: inline-block;
-    font-weight: 600;
     transition: 0.5s;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .back-photo h1:hover{
@@ -573,6 +573,8 @@ aside.sticky ul li{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 170px;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
  }
 
 
@@ -599,18 +601,17 @@ aside.sticky ul li{
     margin-bottom:10px;
     }
 
+    .copyright-accessibility{
+        font-size: 12px;
+        font-weight: bold;
+        position:relative;  
+    }
+
 
 
 
 
 /* Styles for FOOTER*/
-  *{
-    margin:0;
-    padding:0;
-    font-family: Verdana, sans-serif;
-    box-sizing: border-box;
- }
-
  .footer{
     margin-top: 70px;
     width: 100%;
@@ -620,6 +621,8 @@ aside.sticky ul li{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 170px;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
  }
 
 
