@@ -52,6 +52,28 @@ p {
     line-height: 1.5;
 }
 
+/* In the html-files, all the images have captions and credits that are placed into 
+a "photo-caption"-class and a "photo-credit"-class. These two classes are styled underneath
+to have the same colors, size, boldness, placement and spacing. In order to make the visual
+design more coherent.*/
+.photo-caption{
+    color: darkmagenta;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    font-size: 95%;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 1%;
+}
+.photo-credit{
+    color: black;
+    font-style: italic;
+    font-family: Verdana, sans-serif;
+    font-size: 80%;
+    text-align: left;
+    margin-top: 0;
+}
+
 
 
 
@@ -94,6 +116,134 @@ https://www.w3schools.com/colors/colors_gradient.asp*/
     margin-top: 0;
     text-align: left; 
 }
+
+
+
+/* The following code contains the styling of the footer of all the pages*/
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+ }
+
+ .footer{
+    margin-top: 70px;
+    width: 100%;
+    padding: 50px;
+    background: linear-gradient(to bottom right, #447988 0%, #990099 90%);
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 170px;
+ }
+
+
+ .footer section{
+    text-align: center;
+ }
+
+
+ .footer section h3{
+    font-weight:300;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+ }
+
+ .footer section p{
+    float:none;
+    color:whitesmoke;
+    text-align:center;
+    font-family:Verdana, sans-serif;
+    font-size:100%;
+    letter-spacing:1px;
+    display: block;
+    margin-bottom:10px;
+    }
+
+.col-1 a{
+    display:block;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-bottom:10px;
+}
+
+/*Underneath a input-boxes where users may write in their email-adress is styled*/
+ form input{
+    width:270px;
+    height: 45px;
+    border-radius: 4px;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:40px;
+    outline:none;
+    border:none;
+ }
+
+/*This code creates a button users may click on after writing in their email-adress in order 
+subscribe*/
+ form button{
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color:whitesmoke;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+ }
+
+.logo-details{
+    color:whitesmoke;
+    font-size:20px;
+}
+
+/*Underneath the social media-ikons used in the footer are styled to spesific colours and sizes.*/
+.fa-facebook-f{
+    font-size: 30px;
+    color: rgb(41, 41, 129);
+}
+
+.fa-instagram{
+    font-size:30px;
+    color: rgb(110, 6, 110);
+}
+
+.fa-snapchat{
+    font-size:30px;
+    color:rgba(255, 255, 0, 0.777);
+}
+
+.fa-twitter{
+    font-size:30px;
+    color:skyblue;
+}
+
+.fa-tiktok{
+    font-size:30px;
+    color: black;
+}
+
+/*The copyright-ikon is here styled with a spesific boldness, size and positioning*/
+.fa-copyright{
+    font-size:12px;
+}
+
+.copyright{
+    font-size: 12px;
+    font-weight: bold;
+    position:relative;  
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -355,16 +505,16 @@ intuitively appear as links to the user.*/
 
 
 /*To create the responsive grids in the topical page, we used the same format as we did on the image site.
+      
+Here we placed all the text into the "topical-subcontainer"-class and set the grid to a certain size. 
+All the images was then placed into the "topical-image-container"-class and style the container with this class.
+And then we used "topical-image-container img"-code to size the images. 
 
 We used the following sources:
-https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+    https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
-https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe
-    
-    We placed most of the text into a "imageSite-subcontainer"-class and styles them
-    directly. Additionally, we placed most of the images into a "imageSite-photo-container"-class
-    and set the size of the container and the image to fit the page. */
-
+    https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe 
+*/
 .topical-subcontainer{
 	margin-top: 150px;
 	margin-bottom:200px;
@@ -392,14 +542,15 @@ https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41
 	width: 80%;
 } 
 
-/*This "imageSite-wrapper"-class is used to place the sections of the class contains
-into a grid and to decide upon the style of these boxes. 
-To make the grid responsive so that the content adapts whenever viewed on other devices 
+
+
+/*With the "topical-wrapper"-class we placed is used to create grid and make it 
+responsive so that it adapts the content whenever viewed on other devices 
 or when zooming the webbrowser in or out.
 
 Sources used to do this:
-https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp 
-https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe 
+    https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp 
+    https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe 
 */
 .topical-wrapper{
     max-width:1200px;
@@ -411,7 +562,19 @@ https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41
 }
 
 
-/**/
+/* The topical page contains a section with a quote which is placed within 
+the "topical-quote-container"-class with characteristis that differentiates it
+from the "topical-subcontainer"-classes used elsewhere on this page. 
+Amongst other things this container only includes text that is not placed in line with a picture.
+However, even though the "topical-quote-container" is not placed within the "topical-wrapper"-class
+it is still responsive.
+
+Underneath the different text-elements withing the "topical-quote-container"-class is styled. Here 
+the quote itself is set as slightly bigger, in another color and font type than the "citation-origin"-class 
+which contains the name of the person from which the quote originates. This is done to differentiate 
+the classes text-elements and to make it easier for users of the website to distinguish the quote as 
+a type of textual element that´s different from other text.*/
+
 .topical-quote-container{
     text-align: center;
     margin-top: 90px;
@@ -432,11 +595,8 @@ https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41
 }
 
 
-
-
-
-
-/*Styles of the images on the Topical Page*/
+/*The codes underneath styles the images on the topical page. And the "topical-image1:hover"-code 
+is used to make the images zoom out when hovered over.*/
 .topical-image1 {
     width: 100%; 
     transform: scale(1);
@@ -470,6 +630,7 @@ https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41
     margin-bottom:20px;
 }
 
+/*This code is used to place the images in the center*/
 .center {
     display: block;
     margin-left: auto;
@@ -477,28 +638,10 @@ https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41
     width: 90%;
 }
 
-/*Styles of the caption underneath the images in the Topical Page*/
-.photo-caption{
-    color: darkmagenta;
-    font-weight: bold;
-    font-family: Verdana, sans-serif;
-    font-size: 95%;
-    text-align: left;
-    margin-top: 30px;
-    margin-bottom: 1%;
-}
-.photo-credit{
-    color: black;
-    font-style: italic;
-    font-family: Verdana, sans-serif;
-    font-size: 80%;
-    text-align: left;
-    margin-top: 0;
-}
 
 
-
-/* Styles for ACCESSIBILITY PAGE */
+/* THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS CODE THAT TARGET ELEMENTS THAT ARE UNIQUE TO ACCESSIBILITY.HTML*/
+/*Since the accessibility-page*/
 
 .menuBar-accessibility {
     overflow: hidden;
@@ -726,4 +869,3 @@ aside.sticky ul li{
 
 
 
-  
