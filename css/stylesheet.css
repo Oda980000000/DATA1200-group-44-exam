@@ -308,17 +308,10 @@ on a horizontal line to getting stacked vertically, affected by the screens widt
 
 /* Source for responsivity: https://www.youtube.com/watch?v=IWFCBvepUlY */
 @media (max-width:600px){
-    .back-photo{
-     display:inline-flexbox;
-     margin-bottom:20px;
-     margin-left: 0;
-     margin-right: 0;
+    .back-photo h1{
+            font-size:30px; 
+        }
     }
-    .back-photo h1 {
-        font-size: auto;
-    }
- }
-
 
 
 /* THE FOLLOWING SECTION OF THIS STYLESHEET CONTAINS CODE THAT TARGET ELEMENTS THAT ARE UNIQUE TO IMAGESITE.HTML */
@@ -756,7 +749,7 @@ Source for responsive footer: https://www.youtube.com/watch?v=IWFCBvepUlY */
 @media (max-width:750px){
     .footer-accessibility{
      display:inline-block;
-     margin-bottom:20px;
+     margin-bottom:0px;
     }
  }
 
