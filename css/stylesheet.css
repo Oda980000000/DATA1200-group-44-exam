@@ -797,6 +797,14 @@ aside.notebox ul li{
     margin-bottom: 10px;
 }
 
+.green-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 0;
+}
+
 .green-subheadings{
     font-family: 'Times New Roman', Times, serif;
     font-size: 150%;
