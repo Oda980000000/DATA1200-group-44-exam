@@ -870,8 +870,7 @@ Sources used to do this:
 }
 
 
-/*The codes underneath styles the images on the topical page. And the "topical-image1:hover"-code 
-is used to make the images zoom out when hovered over.*/
+/*The codes underneath styles the images on the accessibility page.*/
 .accessibility-image {
     width: 50%; 
     transform: scale(1);
