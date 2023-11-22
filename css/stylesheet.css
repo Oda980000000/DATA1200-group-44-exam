@@ -780,6 +780,11 @@ aside.notebox ul li{
     
 }
 
+/* Source for responsivity: https://www.youtube.com/watch?v=IWFCBvepUlY */
+@media (max-width:600px){
+    aside.notebox{
+    }
+}
 
 .accessibility-wrapper{
     max-width:1200px;
