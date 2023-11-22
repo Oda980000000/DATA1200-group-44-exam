@@ -762,9 +762,8 @@ Source for responsive footer: https://www.youtube.com/watch?v=IWFCBvepUlY */
 
 /*This code creates a sticky box that keeps its position while scrolling down
 The source we used to create this: https://www.w3schools.com/howto/howto_css_sticky_element.asp */
-aside.sticky {
-    position: -webkit-sticky;
-    position: sticky;
+aside.notebox {
+    position: flex;
     top: 0;
     background: linear-gradient(to bottom right,darkcyan 0%,forestgreen 90%);
     float: right;
