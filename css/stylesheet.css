@@ -20,7 +20,7 @@ and styles the elements that are unique to these sites.*/
 
 /*This code sets the background color on these pages*/
 body {
-    background-color:#f1eef3;
+    background-color:#ebebf9;
 }
 
 /*This code styles all the paragraph text on all the sites*/
@@ -48,7 +48,7 @@ p {
     font-family: Verdana, sans-serif;
     font-size: 150%;
     font-weight: bold;
-    color:#432a82;
+    color:darkmagenta;
     margin-bottom: 0;
 }
 
@@ -58,7 +58,7 @@ a "photo-caption"-class and a "photo-credit"-class. These two classes are styled
 to have the same colors, size, boldness, placement and spacing. In order to make the visual
 design more coherent.*/
 .photo-caption{
-    color: #432a82;
+    color: darkmagenta;
     font-weight: bold;
     font-family: Verdana, sans-serif;
     font-size: 95%;
@@ -589,7 +589,7 @@ a type of textual element that´s different from other text.*/
 .quote{
     font-family: American Typewriter, serif;
     font-size: 150%;
-    color: #432a82;
+    color: darkmagenta;
     text-align: center;
 
 }
