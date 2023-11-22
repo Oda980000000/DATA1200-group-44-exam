@@ -3,32 +3,28 @@
 <!--The lang attribute establishes the default language of our webpage.-->
 <html lang="en">
 
-
 <!--Here in the head-element the title of the webpage is established. 
 The head also contains the links to the stylesheet. The second link is the link to the link 
-to the icons we use in the pages -->
-<head>
-    <!--Underneath are the linked sheets and links we are using in this page-->
-    <title> Introduction Page </title>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <!--Link for using icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-
+to the icons we use in the pages -->   
+    <head>
+        <!--Underneath are the linked sheets and links we are using in this page-->
+        <title> Introduction Page </title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <!--Link for using icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 <!-- Here a menu bar is created that links all the pages together. 
 The source we used to create this menu bar:
 https://www.w3schools.com/howto/howto_js_topnav.asp-->
 <header class="menuBar">
+    <!--Code for the icon on the menubar. The height and width is the size for the icon-->
     <nav>
     <a href="index.html">
-
-    <!--Code for the icon on the menubar. The height and width is the size for the icon
-    The moon icon was designed by a groupmember-->
-    <img src="img/iconMoon.png" width="30" height="25"></a> 
+    <!--Code for icon, defining the width and height. The moon icon was designed by a groupmember-->
+    <img src="img/iconMoon.png" alt="Icon" width="30" height="25"></a> 
     <a class="active" href="index.html">Introduction page</a>
     <a href="topicalPage.html"> Topical page</a>
     <a href="imageSite.html"> Image page</a>
@@ -36,97 +32,96 @@ https://www.w3schools.com/howto/howto_js_topnav.asp-->
 </nav>
 </header>
 
-
-
-
 <!--Source for background image: https://www.youtube.com/watch?v=znqUwx0b0HI-->
 <!--The following codes create the background image with the popping text. The
 explore button sends you to the topical page, where you can explore about OsloMet.-->
 <section class="back-photo">
             <h1>Welcome to our website!</h1>
+            <br>
+            <br>
             <!--Source for hyperlink to a section on the same page:
                 https://www.youtube.com/watch?v=wcW8UyUrZJU&t=609s-->
             <a href="#topicaltext">Explore OsloMet</a>
 </section>
-        
-  
+    
 
-<!--Underneath follows two paragraphs that has been coded by using
-grids and unique styles(index-wrapper and index-section), boxes(contextbox) and styles(purple-subheadings)-->
-<body class="contextbox">
-    <a id="topicaltext"></a>
-    <section class="index-wrapper">
-        <section class = "index-section">
-            <p class = "purple-subheadings"> OsloMet and Pilestredet 35 </p>
-            <p class = "indexOslomet"> This is a website for OsloMet Pilestredet 35. Here we will introduce what this website is about.
+
+    <!--Underneath follows two paragraphs that has been coded by using
+    grids and unique styles(index-wrapper and index-section), boxes(contextbox) and styles(purple-subheadings)-->
+    <body class="contextbox">
+        <a id="topicaltext"></a>
+        <section class="index-wrapper">
+            <section class = "index-section">
+                <p class = "purple-subheadings"> OsloMet and Pilestredet 35 </p>
+                <p class = "indexOslomet"> This is a website for OsloMet Pilestredet 35. Here we will introduce what this website is about.
                 We have been given the task of creating a website for Oslomet and specifically for building Pilestredet 35.
                 This website is divided into four pages: Introduction page, topical page, accessibility test page and a page
                 for pictures of OsloMet and Ellen Gleditsch. The topical page will mainly be about OsloMet Pilestredet 35 and Ellen Gleditsch.
                 The accessibility test page is where we are evaluating digital products to ensure they can be used effectively by individuals with disabilities.
-            </p>
-        </section>
+                </p>
+            </section>
 
-        <section class="index-section">
-            <p class = "purple-subheadings"> Some facts about Oslomet University </p>
-            <p class = "indexOslomet">  
+            <section class="index-section">
+                <p class = "purple-subheadings"> Some facts about Oslomet University </p>
+                <p class = "indexOslomet">  
                 <!-- Source is from SNL: https://snl.no/OsloMet_–_storbyuniversitetet-->
                 OsloMet — The metropolitan university is a university with its main campus in Oslo.
                 It received university status in 2018 and was previously called the Oslo and Akershus University College (HiOA).
                 The university offers a wide range of professional education. The main focus of the research is on the professions that are part of the university's study offer,
                 as well as research on working life and professions in general. Besides the main campus in Pilestredet (Bislett) in Oslo, OsloMet has a campus at Kjeller in Skedsmo.
                 Oslomet conducts research and education in the social sciences, health sciences, teacher training, technology, art and design.
-            </p>
+                </p>
+            </section>
         </section>
-    </section>
-</body>
+    </body>
 
 
-<!--Underneath a footer is created with links to different OsloMet-sites; a newsletter-subscription-box 
-and contact information.
+<!--The footer links to different OsloMet-sites, has an input box
+for a newsletter-subscription and shows our contact information.
 Source for footer: https://www.youtube.com/watch?app=desktop&v=lLdzlLL33G8-->
 <footer>
-    <section class= "footer">
-        <!--Column (col-1,col-2,col-3 separate these three parts. Col-1 is some links from the original OsloMet website, that 
-            we think is useful.)-->
-        <section class="col-1">
-            <h3>USEFUL LINKS</h3>
-            <nav>
-            <a href="https://www.oslomet.no/studier/tkd/anvendt-datateknologi">Anvendt datateknologi</a>
-            <a href="https://www.oslomet.no/om">About OsloMet</a>
-            <a href="https://student.oslomet.no/">International students</a>
-            <a href="https://student.oslomet.no/en/">Cookies</a>
-            </nav>
-        </section>
-        <!--Col-2 is mock up of a newsletter subscription. Its not functional-->
-        <section class="col-2">
-            <h3>NEWSLETTER</h3>
-            <form>
-                <input type="email" placeholder="Email address" required>
-                <br>
-                <button type="submit">SUBSCRIBE</button>
-            </form>
-        </section>
-        <!--Col-3 gives an overview of our contact info-->
-        <section class="col-3">
-            <h3>CONTACT US</h3>
-            <p><i class="fa-regular fa-envelope"></i> oslomet@oslomet.no</p>
-            <p><i class="fa-solid fa-square-phone"></i> 12 34 56 78</p>
-                <br>
-                <!--Navigation bar for our social media. Its not functional-->
-                <p> OUR SOCIAL MEDIA</p>
-                <section>
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a> 
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-snapchat"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                 </section>
-                </section>
-                 <section class="copyright">
-                 <p><i class="fa-regular fa-copyright"></i> ODGAJE 2023</p>
-                </section>
-        </section>
-    </footer> 
-    
+<section class= "footer">
+    <!--Columns (col-1,col-2,col-3) separate these three parts,
+        Col-1 contains links to the official OsloMet website.-->
+    <section class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <nav>
+        <a href="https://www.oslomet.no/studier/tkd/anvendt-datateknologi">Anvendt datateknologi</a>
+        <a href="https://www.oslomet.no/om">About OsloMet</a>
+        <a href="https://student.oslomet.no/en/">International students</a>
+        <a href="https://student.oslomet.no/">Cookies</a>
+        </nav>
+    </section>
+    <!--Col-2 is mock up of a newsletter subscription. It's not functional-->
+    <section class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+            <input type="email" placeholder="Email address" required>
+            <br>
+            <button type="submit">SUBSCRIBE</button>
+        </form>
+    </section>
+    <!--Col-3 gives an overview of our contact info-->
+    <section class="col-3">
+        <h3>CONTACT US</h3>
+        <p><i class="fa-regular fa-envelope"></i> oslomet@oslomet.no</p>
+        <p><i class="fa-solid fa-square-phone"></i> 12 34 56 78</p>
+            <br>
+            <!--Navigation bar for our social media. It's not functional-->
+            <p> OUR SOCIAL MEDIA</p>
+            <section>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a> 
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+             </section>
+            </section>
+             <section class="copyright">
+             <p><i class="fa-regular fa-copyright"></i> ODGAJE 2023</p>
+            </section>
+    </section>
+</footer>
+
 
 
