@@ -832,3 +832,56 @@ aside.notebox ul li{
 
 
 
+/*In order to create to create a grid template with responsive grid boxes aside of eachother we used the same
+outline as we did in the imageSite.html and the TopicalPage.html with containers and wrappers.
+Sources used to do this:
+    https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp 
+    https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe 
+*/
+
+.accessibility-image-container{
+	flex:auto;
+	max-width: fit-content;
+	padding: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.accessibility-image-container img{
+	margin-top:8px;
+	vertical-align: middle;
+	width: 80%;
+
+} 
+
+
+
+
+.accessibility-wrapper{
+    max-width:1200px;
+    margin-top: 20px;
+	margin:0 auto;
+	display: grid;
+	gap:1rem;
+	grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+}
+
+
+/*The codes underneath styles the images on the topical page. And the "topical-image1:hover"-code 
+is used to make the images zoom out when hovered over.*/
+.accessibility-image {
+    width: 50%; 
+    transform: scale(1);
+    transition: transform .2s;
+}
+
+.accessibility-image:hover{
+    transform: scale(1.1);
+    margin-bottom:20px;
+}
+
+
+
