@@ -749,7 +749,7 @@ Source for responsive footer: https://www.youtube.com/watch?v=IWFCBvepUlY */
 @media (max-width:750px){
     .footer-accessibility{
      display:inline-block;
-     margin-bottom:0px;
+     margin-bottom:20px;
     }
  }
 
